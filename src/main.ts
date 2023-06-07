@@ -10,7 +10,7 @@ async function bootstrap() {
     {
       transport: Transport.GRPC,
       options: {
-        url: 'localhost:5001',
+        url: '0.0.0.0:5001',
         package: protobufPackage,
         protoPath: 'node_modules/upskilling-protos/proto/auth.proto'
       }
